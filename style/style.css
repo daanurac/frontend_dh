@@ -1,3 +1,6 @@
+html {
+    font-size: 15px;
+}
 #barra_foto {
     height: 168px;
 }
@@ -9,15 +12,36 @@
     margin: 20px auto;
 
 }
-h1 {
+h1,h2 {
     background-color: #c4c4c4;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    text-align: center;
-    margin: 0px;
     color: #005677;
     text-transform: uppercase;
     font-family: 'Times New Roman';
     font-style: normal;
+}
+h1 {
     font-size: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+h2 {
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    margin: 0px;
+}
+.boldy {
+    font-weight: bold;
+}
+table {
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+ul {
+    margin-bottom: 35px;
 }
