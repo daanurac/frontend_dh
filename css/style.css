@@ -1,11 +1,99 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+@import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
 .topbar{
     width: auto;
     background-color: #222;
-    border: 10px;
+    border: 0px;
+    padding: 4px;
+    padding-left: 90px;
+    padding-right: 50px;
     color: #f3f3f3;
 }
 #txt2{
     float: right;
+}
+.menubar{
+    background-color: #F0A83E;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-position: 40px;
+    font-size: 13px;
+    padding: 24px 40px;
+    text-align: right;
+    color: white;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+.banner{
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 409px;
+    padding-top: 150px;
+    padding-right: 12px;
+    text-align: right;
+}
+.placer{
+    background-color: white;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.descuentos{
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-right: 85px;
+}
+button{
+    background-color: #F0A83E;
+    font-size: 16px;
+    color: white;
+    width: 141px;
+    height: 49px;
+    border: 0px;
+    border-radius: 5px;
+    margin-right: 107px;
+}
+.productos{
+    text-align: center;
+}
+.productos header h2{
+    font-size: 40px;
+    margin: 0px;
+}
+.productos article{
+    display: inline-block;
+    margin-top: 40px;
+}
+.productos article h3{
+    font-size: 15px;
+    color: #3C2313;
+    margin: 0px;
+}
+.productos article p{
+    font-size: 15px;
+    color: #F0A83E;
+    margin: 0px;
+}
+footer{
+    text-align: center;
+    background-color: #222222;
+    font-weight: bold;
+    color: white;
+    font-size: 10px;
+    padding: 4px;
+    margin-top: 40px;
+}
+footer p{
+    margin: 0px;
 }
